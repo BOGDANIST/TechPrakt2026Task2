@@ -20,3 +20,32 @@ header {
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+
+.news-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.news-card {
+    background: #1f2833;
+    border-radius: 8px;
+    padding: 25px;
+    width: 45%;
+    border: 1px solid #1f2833;
+    transition: all 0.3s ease;
+}
+
+.news-card:hover {
+    transform: scale(1.02);
+    border-color: #66fcf1; /* Неонова рамка при наведенні */
+    box-shadow: 0 0 15px rgba(102, 252, 241, 0.2);
+}
+
+.news-card h2 {
+    margin-bottom: 15px;
+    color: #ffffff;
+}
