@@ -49,3 +49,34 @@ header {
     margin-bottom: 15px;
     color: #ffffff;
 }
+
+.news-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #45a29e;
+}
+
+.news-card p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.read-more {
+    background-color: transparent;
+    color: #66fcf1;
+    border: 1px solid #66fcf1;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.read-more:hover {
+    background-color: #66fcf1;
+    color: #0b0c10;
+}
