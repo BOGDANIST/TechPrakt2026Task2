@@ -6,17 +6,18 @@
 
 body {
     font-family: 'Verdana', sans-serif;
-    background-color: #0b0c10; /* Дуже темний фон */
-    color: #c5c6c7;
+    background-color: #f8f9fa;
+    color: #333333; 
 }
 
 header {
-    background: linear-gradient(90deg, #1f2833 0%, #0b0c10 100%);
-    color: #66fcf1; /* Неоновий акцент */
+    background: #ffffff; 
+    color: #222222; 
     text-align: center;
     padding: 30px 0;
     margin-bottom: 40px;
-    border-bottom: 2px solid #45a29e;
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); 
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -31,23 +32,24 @@ header {
 }
 
 .news-card {
-    background: #1f2833;
+    background: #ffffff; 
     border-radius: 8px;
     padding: 25px;
     width: 45%;
-    border: 1px solid #1f2833;
+    border: 1px solid #eaeaea; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); 
     transition: all 0.3s ease;
 }
 
 .news-card:hover {
-    transform: scale(1.02);
-    border-color: #66fcf1; /* Неонова рамка при наведенні */
-    box-shadow: 0 0 15px rgba(102, 252, 241, 0.2);
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); 
+    border-color: #cccccc;
 }
 
 .news-card h2 {
     margin-bottom: 15px;
-    color: #ffffff;
+    color: #111111; 
 }
 
 .news-card img {
@@ -56,18 +58,19 @@ header {
     object-fit: cover;
     border-radius: 4px;
     margin-bottom: 20px;
-    border-bottom: 3px solid #45a29e;
+
 }
 
 .news-card p {
     line-height: 1.6;
     margin-bottom: 20px;
+    color: #555555;
 }
 
 .read-more {
     background-color: transparent;
-    color: #66fcf1;
-    border: 1px solid #66fcf1;
+    color: #007bff; 
+    border: 1px solid #007bff;
     padding: 10px 20px;
     border-radius: 4px;
     cursor: pointer;
@@ -77,6 +80,7 @@ header {
 }
 
 .read-more:hover {
-    background-color: #66fcf1;
-    color: #0b0c10;
+    background-color: #007bff;
+    color: #ffffff; 
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
 }
